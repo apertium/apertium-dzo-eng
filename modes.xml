@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- dzo → eng -->
+
+  <mode name="dzo-eng" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="dzo-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="dzo-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dzo-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dzo-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dzo-eng.autolex.bin"/>
+      </program>
+
+      <program name="apertium-transfer -b">
+        <file name="apertium-dzo-eng.dzo-eng.t1x"/>
+        <file name="dzo-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dzo-eng.dzo-eng.t2x"/>
+        <file name="dzo-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dzo-eng.dzo-eng.t3x"/>
+        <file name="dzo-eng.t3x.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="dzo-eng.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="dzo-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- eng → dzo -->
+
+  <mode name="eng-dzo" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="eng-dzo.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-dzo.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-dzo.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-dzo.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-dzo.autolex.bin"/>
+      </program>
+
+      <program name="apertium-transfer -b">
+        <file name="apertium-dzo-eng.eng-dzo.t1x"/>
+        <file name="eng-dzo.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dzo-eng.eng-dzo.t2x"/>
+        <file name="eng-dzo.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dzo-eng.eng-dzo.t3x"/>
+        <file name="eng-dzo.t3x.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="eng-dzo.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-dzo.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
