@@ -10,7 +10,7 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON =		\
-	$(PREFIX1).autotok.hfst
+	$(PREFIX1).autotok.hfst \
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
