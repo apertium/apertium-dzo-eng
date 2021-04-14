@@ -7,11 +7,13 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
+    <sdef n="v"               c="Verb, lexical"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="sbo"             c="Subordinate"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -19,6 +21,7 @@
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
+    <sdef n="qtadj"           c="Quantitative Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
     <sdef n="attr"            c="Attributive"/>
@@ -56,6 +59,9 @@
     <sdef n="nom"             c="Nominative"/>
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
+    <sdef n="loc"             c="Locative"/>
+    <sdef n="abl"             c="Ablative"/>
+    <sdef n="dat"             c="Dative"/>
 
     <sdef n="dem"             c="Demonstrative"/>
     <sdef n="itg"             c="Question word / interrogative"/>
@@ -65,7 +71,13 @@
 
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
+    <sdef n="past"             c="Past"/>
+    <sdef n="fut"             c="Future"/>
     <sdef n="imp"             c="Imperative"/>
+    <sdef n="adh"             c="Adhortative"/>
+    <sdef n="adhn"           c="Negative Adhortative"/>
+    <sdef n="opt"             c="Optative"/>
+    <sdef n="optn"             c="Negative Optative"/>
     <sdef n="pret"            c="Preterite"/>
     <sdef n="pp"              c="Perfect participle"/>
     <sdef n="pprs"            c="Present participle"/>
@@ -97,7 +109,67 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>བྱི་ལི་<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+      <e><p><l>སྒྲོམ་<s n="n"/></l><r>box<s n="n"/></r></p></e>
+      <e><p><l>ཁྱིམ་<s n="n"/></l><r>house<s n="n"/></r></p></e>
+      <e><p><l>དགེ་སློང་<s n="n"/></l><r>monk<s n="n"/></r></p></e>
+      <e><p><l>སྲིངམོ་<s n="n"/></l><r>sister<s n="n"/></r></p></e>
+      <e><p><l>ཉིམ་<s n="n"/></l><r>sun<s n="n"/></r></p></e>
+      <e><p><l>དུས་ཚོད་<s n="n"/></l><r>time<s n="n"/></r></p></e>
+      <e><p><l>སྲུང་<s n="n"/></l><r>story<s n="n"/></r></p></e>
+      <e><p><l>རྒྱ་མཚོ་<s n="n"/></l><r>ocean<s n="n"/></r></p></e>
+      <e><p><l>ནོར་བུ་<s n="n"/></l><r>pearl<s n="n"/></r></p></e>
+      <e><p><l>བྱི་ཙི་<s n="n"/></l><r>rat<s n="n"/></r></p></e>
+      <e><p><l>ཁྲོམ་<s n="n"/></l><r>town<s n="n"/></r></p></e>
+      <e><p><l>ཆ་རོགས་<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+      <e><p><l>ཡིག་ཚང་<s n="n"/></l><r>office<s n="n"/></r></p></e>
+      <e><p><l>ཁ་རྩ་<s n="n"/></l><r>yesterday<s n="n"/></r></p></e>
+
+      <e><p><l>ང་<s n="prn"/><s n="p1"/><s n="sg"/></l><r>I<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ང་བཅས་<s n="prn"/><s n="p1"/><s n="pl"/></l><r>we<s n="prn"/><s n="p1"/><s n="pl"/></r></p></e>
+      e><p><l>ཁྱོད་<s n="prn"/><s n="p2"/><s n="sg"/></l><r>you<s n="prn"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ཁོ་<s n="prn"/><s n="p3"/><s n="sg"/><s n="m"/></l><r>he<s n="prn"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+      <e><p><l>མོ་<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></l><r>she<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+      <e><p><l>ཁོང་<s n="prn"/><s n="p3"/><s n="pl"/></l><r>they<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>དེ་<s n="det"/></l><r>the<s n="det"/></r></p></e>
+
+      <e><p><l>སྦོམ་<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+      <e><p><l>བ་རྒས་<s n="adj"/></l><r>older<s n="adj"/></r></p></e>
+      <e><p><l>རིངམོ་<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
+      e><p><l>སེརཔོ་<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
+      e><p><l>འཇའ་ཆི་ཆི་<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+
+      <e><p><l>ད་<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+
+      <e><p><l>ཤར་<s n="v"/><s n="iv"/></l><r>shine<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>ལྷོད་<s n="v"/><s n="iv"/></l><r>reach<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>འཐོབ་<s n="v"/><s n="iv"/></l><r>get<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>འབྲི་<s n="v"/><s n="tv"/></l><r>write<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ཟུང་<s n="v"/><s n="tv"/></l><r>catch<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ཟ་<s n="v"/><s n="tv"/></l><r>eat<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>འཁྱུ་<s n="v"/><s n="tv"/></l><r>wash<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>སྟོན་<s n="v"/><s n="tv"/></l><r>show<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>བཟོ་<s n="v"/><s n="tv"/></l><r>make<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>སྤུང་<s n="v"/><s n="tv"/></l><r>collect<s n="v"/><s n="tv"/></r></p></e>
+
+      <e><p><l>འདུག་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
+      <e><p><l>ཡོད་<s n="vbser"/></l><r>has<s n="vbser"/></r></p></e>
+      <e><p><l>མེད་<s n="vbser"/><s n="neg"/></l><r>has not<s n="vbser"/><s n="neg"/></r></p></e>
+      <e><p><l>ཨིན་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
+      <e><p><l>མེན་<s n="vbser"/><s n="neg"/></l><r>is not<s n="vbser"/><s n="neg"/></r></p></e>
+
+      <e><p><l>ཁར་<s n="loc"/></l><r>by<s n="loc"/></r></p></e>
+      <e><p><l>ནང་<s n="loc"/></l><r>in<s n="loc"/></r></p></e>
+      <e><p><l>ལུ་<s n="dat"/></l><r>to<s n="dat"/></r></p></e>
+      <e><p><l>ལས་<s n="abl"/></l><r>from<s n="abl"/></r></p></e>
+      <e><p><l>ཀྱིེ་<s n="gen"/></l><r>of<s n="gen"/></r></p></e>
+
+      <e><p><l>གཅིག་<s n="num"/></l><r>one<s n="num"/></r></p></e>
+      <e><p><l>གཉིས་<s n="num"/></l><r>two<s n="num"/></r></p></e>
+
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
