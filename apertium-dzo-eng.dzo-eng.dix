@@ -164,7 +164,10 @@
       <e><p><l>ནང་<s n="loc"/></l><r>in<s n="loc"/></r></p></e>
       <e><p><l>ལུ་<s n="dat"/></l><r>to<s n="dat"/></r></p></e>
       <e><p><l>ལས་<s n="abl"/></l><r>from<s n="abl"/></r></p></e>
-      <e><p><l>ཀྱིེ་<s n="gen"/></l><r>of<s n="gen"/></r></p></e>
+      <e><p><l>གེ་<s n="vaux"/></l><r>let<s n="vaux"/></r></p></e>
+      <!-- morphemes how?? ask prof! -->
+      <e><p><l>ཅི་<s n="past"/></l><r>did<s n="past"/></r></p></e>
+      <e><p><l>དོ་<s n="pres"/></l><r>doing<s n="pres"/></r></p></e>
 
       <e><p><l>གཅིག་<s n="num"/></l><r>one<s n="num"/></r></p></e>
       <e><p><l>གཉིས་<s n="num"/></l><r>two<s n="num"/></r></p></e>
