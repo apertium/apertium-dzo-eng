@@ -18,7 +18,7 @@
       <program name="cg-proc -w">
         <file name="dzo-eng.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -g $2 -u 2">
         <file name="dzo-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -64,7 +64,7 @@
       <program name="cg-proc -w">
         <file name="eng-dzo.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -g $2 -x">
         <file name="eng-dzo.prob"/>
       </program>
 
