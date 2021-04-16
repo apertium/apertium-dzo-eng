@@ -2,6 +2,7 @@
 
 CORPUS=$1
 ANALYSER=$2
+TOKENIZER=$3
 LG=$(echo $CORPUS | sed 's:.*\/::' | sed -E 's:(.*\..*)\..*\.txt.*:\1:') # get corpus prefix
 
 person=`whoami`
@@ -18,7 +19,7 @@ $CAT $CORPUS > $TMPCORPUS
 
 echo "Generating hitparade (might take a bit!)"
 
-cat $TMPCORPUS | apertium-destxt | lt-proc -w $ANALYSER | apertium-retxt | sed -E $'s/\\$[^^]*/\\$\\\n/g' > $TMPPARADE
+cat $TMPCORPUS | apertium-destxt | python3 tokenize.py $TOKENIZER | lt-proc -w $ANALYSER | apertium-retxt | sed -E $'s/\\$[^^]*/\\$\\\n/g' > $TMPPARADE
 
 echo "TOP UNKNOWN WORDS:"
 
