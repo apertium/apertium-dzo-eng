@@ -11,6 +11,20 @@
       <select lemma="energía" tags="n.*"/>
     </match>
   </rule>
+
+  <rule weight="1.2">
+    <match lemma="མཐུ་" tags="n.*"/>
+    <match lemma="རྐྱབ་" tags="v.*">
+      <select lemma="black magic" tags="n.*"/>
+    </match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="མཐུ་" tags="n.*">
+    <select lemma="power" tags="n.*"/>
+      </match>
+  </rule>
+
 </rules>
 
 <!--
@@ -20,4 +34,3 @@ Resources:
     http://wiki.apertium.org/wiki/Lexical_selection
     http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
 -->
-
