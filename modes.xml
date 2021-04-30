@@ -29,17 +29,9 @@
         <file name="dzo-eng.autolex.bin"/>
       </program>
 
-      <program name="apertium-transfer -b">
-        <file name="apertium-dzo-eng.dzo-eng.t1x"/>
-        <file name="dzo-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-dzo-eng.dzo-eng.t2x"/>
-        <file name="dzo-eng.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-dzo-eng.dzo-eng.t3x"/>
-        <file name="dzo-eng.t3x.bin"/>
+
+      <program name="rtx-proc">
+        <file name="dzo-eng.rtx.bin"/>
       </program>
 
       <program name="lt-proc $1">
@@ -76,17 +68,9 @@
         <file name="eng-dzo.autolex.bin"/>
       </program>
 
-      <program name="apertium-transfer -b">
-        <file name="apertium-dzo-eng.eng-dzo.t1x"/>
-        <file name="eng-dzo.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-dzo-eng.eng-dzo.t2x"/>
-        <file name="eng-dzo.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-dzo-eng.eng-dzo.t3x"/>
-        <file name="eng-dzo.t3x.bin"/>
+
+      <program name="rtx-proc">
+        <file name="eng-dzo.rtx.bin"/>
       </program>
 
       <program name="lt-proc $1">

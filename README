@@ -72,12 +72,8 @@ Files and data
 -------------------------------------------------------------------------------
 
 * [`apertium-dzo-eng.dzo-eng.dix`](apertium-dzo-eng.dzo-eng.dix) - Bilingual dictionary
-* [`apertium-dzo-eng.dzo-eng.t1x`](apertium-dzo-eng.dzo-eng.t1x) - Chunking rules for translating into English
-* [`apertium-dzo-eng.eng-dzo.t1x`](apertium-dzo-eng.eng-dzo.t1x) - Chunking rules for translating into Dzongkha
-* [`apertium-dzo-eng.dzo-eng.t2x`](apertium-dzo-eng.dzo-eng.t2x) - Interchunk rules for translating into English
-* [`apertium-dzo-eng.eng-dzo.t2x`](apertium-dzo-eng.eng-dzo.t2x) - Interchunk rules for translating into Dzongkha
-* [`apertium-dzo-eng.dzo-eng.t3x`](apertium-dzo-eng.dzo-eng.t3x) - Postchunk rules for translating into English
-* [`apertium-dzo-eng.eng-dzo.t3x`](apertium-dzo-eng.eng-dzo.t3x) - Postchunk rules for translating into Dzongkha
+* [`apertium-dzo-eng.dzo-eng.rtx`](apertium-dzo-eng.dzo-eng.rtx) - Structural transfer rules for translating into English
+* [`apertium-dzo-eng.eng-dzo.rtx`](apertium-dzo-eng.eng-dzo.rtx) - Structural transfer rules for translating into Dzongkha
 * [`apertium-dzo-eng.dzo-eng.lrx`](apertium-dzo-eng.dzo-eng.lrx) - Lexical selection rules for translating into English
 * [`apertium-dzo-eng.eng-dzo.lrx`](apertium-dzo-eng.eng-dzo.lrx) - Lexical selection rules for translating into Dzongkha
 * [`modes.xml`](modes.xml) - Translation modes
