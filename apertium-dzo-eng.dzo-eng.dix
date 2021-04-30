@@ -154,20 +154,20 @@
 
       <e><p><l>ད་<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
 
-      <e><p><l>ཤར་<s n="v"/><s n="iv"/></l><r>shine<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>ལྷོད་<s n="v"/><s n="iv"/></l><r>reach<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>འཐོབ་<s n="v"/><s n="iv"/></l><r>get<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>འབྲི་<s n="v"/><s n="tv"/></l><r>write<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>ཟུང་<s n="v"/><s n="tv"/></l><r>catch<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>ཟ་<s n="v"/><s n="tv"/></l><r>eat<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>འཁྱུ་<s n="v"/><s n="tv"/></l><r>wash<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>སྟོན་<s n="v"/><s n="tv"/></l><r>show<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>བཟོ་<s n="v"/><s n="tv"/></l><r>make<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>སྤུང་<s n="v"/><s n="tv"/></l><r>collect<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>གནང་<s n="v"/><s n="tv"/></l><r>bestow<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>pull<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>verbal message<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>རྐྱབ་<s n="v"/><s n="iv"/></l><r>do<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ཤར་<s n="v"/><s n="iv"/></l><r>shine<s n="vblex"/></r></p></e>
+      <e><p><l>ལྷོད་<s n="v"/><s n="iv"/></l><r>arrive<s n="vblex"/></r></p></e>
+      <e><p><l>འཐོབ་<s n="v"/><s n="iv"/></l><r>get<s n="vblex"/></r></p></e>
+      <e><p><l>འབྲི་<s n="v"/><s n="tv"/></l><r>write<s n="vblex"/></r></p></e>
+      <e><p><l>ཟུང་<s n="v"/><s n="tv"/></l><r>catch<s n="vblex"/></r></p></e>
+      <e><p><l>ཟ་<s n="v"/><s n="tv"/></l><r>eat<s n="vblex"/></r></p></e>
+      <e><p><l>འཁྱུ་<s n="v"/><s n="tv"/></l><r>wash<s n="vblex"/></r></p></e>
+      <e><p><l>སྟོན་<s n="v"/><s n="tv"/></l><r>show<s n="vblex"/></r></p></e>
+      <e><p><l>བཟོ་<s n="v"/><s n="tv"/></l><r>make<s n="vblex"/></r></p></e>
+      <e><p><l>སྤུང་<s n="v"/><s n="tv"/></l><r>collect<s n="vblex"/></r></p></e>
+      <e><p><l>གནང་<s n="v"/><s n="tv"/></l><r>bestow<s n="vblex"/></r></p></e>
+      <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>pull<s n="vblex"/></r></p></e>
+      <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>verbal message<s n="vblex"/></r></p></e>
+      <e><p><l>རྐྱབ་<s n="v"/><s n="iv"/></l><r>do<s n="vblex"/></r></p></e>
 
       <e><p><l>འདུག་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
       <e><p><l>ཡོད་<s n="vbser"/></l><r>has<s n="vbser"/></r></p></e>
