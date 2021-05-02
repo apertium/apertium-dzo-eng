@@ -4,26 +4,35 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
     Add your own rules within <rule> here, using the resources below as a guide
   -->
-
   <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
+         <match lemma="མཐུ་" tags="n.*">
+                  <select lemma="power" tags="n.*"/>
+         </match>
   </rule>
 
   <rule weight="1.2">
-    <match lemma="མཐུ་" tags="n.*"/>
-    <match lemma="རྐྱབ་" tags="v.*">
-      <select lemma="black magic" tags="n.*"/>
-    </match>
+         <match lemma="མཐུ་" tags="n.*">
+                  <select lemma="black magic" tags="n.*"/>
+         </match>
+         <match lemma="རྐྱབ་" tags="v.iv.*"/>
   </rule>
 
-  <rule weight="1">
-    <match lemma="མཐུ་" tags="n.*">
-    <select lemma="power" tags="n.*"/>
-      </match>
+  <rule>
+         <match lemma="ཕྱག་" tags="n.*">
+                  <select lemma="prostrate" tags="n.*"/>
+         </match>
+         <match lemma="འཚལ་" tags="v.iv.*"/>
   </rule>
+
+  <rule weight="1.2">
+         <match lemma="ཕྱག་" tags="n.hn.*">
+                  <select lemma="hand" tags="n.*"/>
+         </match>
+  </rule>
+
+
+
+
 
 </rules>
 
