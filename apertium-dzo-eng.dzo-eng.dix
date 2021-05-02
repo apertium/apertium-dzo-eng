@@ -111,6 +111,8 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
+
+      <!--Nouns-->
       <e><p><l>བྱི་ལི་<s n="n"/></l><r>cat<s n="n"/></r></p></e>
       <e><p><l>སྒྲོམ་<s n="n"/></l><r>box<s n="n"/></r></p></e>
       <e><p><l>ཁྱིམ་<s n="n"/></l><r>house<s n="n"/></r></p></e>
@@ -136,6 +138,7 @@
       <e><p><l>མཐུ་<s n="n"/></l><r>black magic<s n="n"/></r></p></e>
       <e><p><l>མཐུ་<s n="n"/></l><r>power<s n="n"/></r></p></e>
 
+      <!--Pronouns-->
       <e><p><l>ང་<s n="prn"/><s n="p1"/><s n="sg"/></l><r>I<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ང་བཅས་<s n="prn"/><s n="p1"/><s n="pl"/></l><r>we<s n="prn"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ཁྱོད་<s n="prn"/><s n="p2"/><s n="sg"/></l><r>you<s n="prn"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -143,8 +146,7 @@
       <e><p><l>མོ་<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></l><r>she<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
       <e><p><l>ཁོང་<s n="prn"/><s n="p3"/><s n="pl"/></l><r>they<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>དེ་<s n="det"/></l><r>the<s n="det"/></r></p></e>
-
+      <!--Adjectives-->
       <e><p><l>སྦོམ་<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
       <e><p><l>རྒས་<s n="adj"/></l><r>older<s n="adj"/></r></p></e>
       <e><p><l>རིངམོ་<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
@@ -152,8 +154,10 @@
       <e><p><l>འཇའ་ཆི་ཆི་<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
       <e><p><l>དག་པ་གཅིག་<s n="adj"/></l><r>few<s n="adj"/></r></p></e>
 
+     <!--Adverbs-->
       <e><p><l>ད་<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
 
+     <!--Verbs-->
       <e><p><l>ཤར་<s n="v"/><s n="iv"/></l><r>shine<s n="vblex"/></r></p></e>
       <e><p><l>ལྷོད་<s n="v"/><s n="iv"/></l><r>arrive<s n="vblex"/></r></p></e>
       <e><p><l>འཐོབ་<s n="v"/><s n="iv"/></l><r>get<s n="vblex"/></r></p></e>
@@ -169,21 +173,26 @@
       <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>verbal message<s n="vblex"/></r></p></e>
       <e><p><l>རྐྱབ་<s n="v"/><s n="iv"/></l><r>do<s n="vblex"/></r></p></e>
 
-      <e><p><l>འདུག་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
-      <e><p><l>ཡོད་<s n="vbser"/></l><r>has<s n="vbser"/></r></p></e>
-      <e><p><l>མེད་<s n="vbser"/><s n="neg"/></l><r>has not<s n="vbser"/><s n="neg"/></r></p></e>
-      <e><p><l>ཨིན་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
-      <e><p><l>མེན་<s n="vbser"/><s n="neg"/></l><r>is not<s n="vbser"/><s n="neg"/></r></p></e>
-
+      <!--Prepositions-->
       <e><p><l>ཁར་<s n="loc"/></l><r>by<s n="pr"/></r></p></e>
       <e><p><l>ནང་<s n="loc"/></l><r>in<s n="pr"/></r></p></e>
       <e><p><l>ལུ་<s n="dat"/></l><r>to<s n="pr"/></r></p></e>
       <e><p><l>ལས་<s n="abl"/></l><r>from<s n="pr"/></r></p></e>
       <e><p><l>གེ་<s n="vaux"/></l><r>let<s n="vaux"/></r></p></e>
-      <!-- morphemes how?? ask prof! -->
 
+      <!-- Numerals-->
       <e><p><l>གཅིག་<s n="num"/></l><r>one<s n="num"/></r></p></e>
       <e><p><l>གཉིས་<s n="num"/></l><r>two<s n="num"/></r></p></e>
+
+     <!-- Articles-->
+      <e><p><l>དེ་<s n="det"/></l><r>the<s n="det"/><s n="def"/></r></p></e>
+
+    <!-- "to be" verbs -->
+      <e><p><l>འདུག་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
+      <e><p><l>ཡོད་<s n="vbser"/></l><r>has<s n="vbser"/></r></p></e>
+      <e><p><l>མེད་<s n="vbser"/><s n="neg"/></l><r>has not<s n="vbser"/><s n="neg"/></r></p></e>
+      <e><p><l>ཨིན་<s n="vbser"/></l><r>is<s n="vbser"/></r></p></e>
+      <e><p><l>མེན་<s n="vbser"/><s n="neg"/></l><r>is not<s n="vbser"/><s n="neg"/></r></p></e>
 
 
 
