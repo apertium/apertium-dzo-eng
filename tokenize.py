@@ -12,6 +12,7 @@
 # this will insert spaces so that analysis won't get stuck
 
 import hfst
+from itertools import product
 
 def list_options(spans, start, wlen):
     def ls_op_recurse(i):
@@ -96,8 +97,8 @@ def find_spans(word, analyzer):
             # so we can approximate LRLM when we randomize
     return spans
 
-def process_word(word, analyzer, sout):
-    spans = find_spans(word, analyzer)
+def process_word_tok(word, tokenizer, sout):
+    spans = find_spans(word, tokenizer)
     if len(spans) == 0:
         sout.write(word)
         return
@@ -126,8 +127,94 @@ def process_word(word, analyzer, sout):
     if n < len(word):
         sout.write(word[n:] + ' ')
 
-def process_stream(analyzer, sin, sout):
-    alpha = analyzer.get_alphabet()
+def lattice(spans):
+    ret = [] # [ chunk, chunk, chunk ]
+    # chunk => (total_span, [ option, option, option ])
+    # option => [ span, span, span ]
+    last_start = max(spans.keys())
+    start = 0
+    end = 0
+    while start <= last_start:
+        unk = start
+        while start not in spans or len(spans[start]) == 0:
+            start += 1
+        if start > unk:
+            ret.append(((unk, start), [[(unk, start)]]))
+        options = [] # [ (option, total_span) ]
+        for e in spans[start]:
+            options.append(([(start, e)], e))
+            end = max(end, e)
+        updated = True
+        while updated:
+            updated = False
+            options2 = []
+            for path, e in options:
+                if e == end:
+                    options2.append((path, e))
+                    continue
+                for i in range(e, end):
+                    if i in spans and len(spans[i]) > 0:
+                        if i > e:
+                            path.append((e,i))
+                        for n in spans[i]:
+                            options2.append((path[:] + [(i,n)], n))
+                            update = True
+                            end = max(n, end)
+                        break
+                else:
+                    options2.append((path + [(e, end)], end))
+            options, options2 = options2, []
+        ret.append(((start, end), [x[0] for x in options]))
+        start = end
+    return ret
+
+def string_op(op):
+    ret = ''
+    last_unk = False
+    for s in op:
+        if s[0] == '*':
+            if last_unk:
+                ret += s[1:]
+            elif ret:
+                ret += '+' + s
+            else:
+                ret += s
+            last_unk = True
+        else:
+            if ret:
+                ret += '+'
+            ret += s
+    return ret
+
+def process_word_morf(word, tokenizer, sout, analyzer):
+    spans = find_spans(word, tokenizer)
+    if len(spans) == 0:
+        sout.write('^' + word + '/*' + word + '$')
+        return
+    lat = lattice(spans)
+    for sp, ops in lat:
+        analyses = []
+        for op in ops:
+            an = []
+            for s in op:
+                w = word[s[0]:s[1]]
+                d = analyzer.lookup(w)
+                if len(d) == 0:
+                    an.append(['*' + w])
+                else:
+                    ls = []
+                    for k in d:
+                        for a, w in d[k]:
+                            ls.append(a.replace('@_EPSILON_SYMBOL_@', ''))
+                    an.append(ls)
+            analyses += list(product(*an))
+        sout.write('^' + word[sp[0]:sp[1]])
+        for op in analyses:
+            sout.write('/' + string_op(op))
+        sout.write('$')
+        
+def process_stream(tokenizer, sin, sout, analyzer=None):
+    alpha = tokenizer.get_alphabet()
     cur_word = ''
     while True:
         c = sin.read(1)
@@ -135,7 +222,10 @@ def process_stream(analyzer, sin, sout):
             cur_word += c
         else:
             if cur_word:
-                process_word(cur_word, analyzer, sout)
+                if analyzer:
+                    process_word_morf(cur_word, tokenizer, sout, analyzer)
+                else:
+                    process_word_tok(cur_word, tokenizer, sout)
             if c:
                 cur_word = ''
                 sout.write(c)
@@ -146,8 +236,13 @@ if __name__ == '__main__':
     import argparse
     prs = argparse.ArgumentParser(description='Segment input stream using HFST')
     prs.add_argument('transducer')
+    prs.add_argument('analyzer', nargs='?')
     args = prs.parse_args()
-    stream = hfst.HfstInputStream(args.transducer)
-    analyzer = hfst.HfstBasicTransducer(stream.read())
+    stream_tok = hfst.HfstInputStream(args.transducer)
+    tokenizer = hfst.HfstBasicTransducer(stream_tok.read())
+    analyzer = None
+    if args.analyzer:
+        stream_morf = hfst.HfstInputStream(args.analyzer)
+        analyzer = hfst.HfstBasicTransducer(stream_morf.read())
     import sys
-    process_stream(analyzer, sys.stdin, sys.stdout)
+    process_stream(tokenizer, sys.stdin, sys.stdout, analyzer)
