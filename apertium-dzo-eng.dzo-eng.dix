@@ -146,6 +146,8 @@
       <e><p><l>ཁོ་<s n="prn"/><s n="p3"/><s n="sg"/><s n="m"/></l><r>he<s n="prn"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
       <e><p><l>མོ་<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></l><r>she<s n="prn"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
       <e><p><l>ཁོང་<s n="prn"/><s n="p3"/><s n="pl"/></l><r>they<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+      <!-- singular they pronoun -->
+      <e><p><l>ཁོང་<s n="prn"/><s n="p3"/><s n="sg"/></l><r>they<s n="prn"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <!--Adjectives-->
       <e><p><l>སྦོམ་<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
@@ -153,7 +155,6 @@
       <e><p><l>རིངམོ་<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
       <e><p><l>སེརཔོ་<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
       <e><p><l>འཇའ་ཆི་ཆི་<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
-      <e><p><l>དག་པ་གཅིག་<s n="adj"/></l><r>few<s n="adj"/></r></p></e>
 
      <!--Adverbs-->
       <e><p><l>ད་<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
@@ -180,7 +181,7 @@
       <e><p><l>ནང་<s n="loc"/></l><r>in<s n="pr"/></r></p></e>
       <e><p><l>ལུ་<s n="dat"/></l><r>to<s n="pr"/></r></p></e>
       <e><p><l>ལས་<s n="abl"/></l><r>from<s n="pr"/></r></p></e>
-      <e><p><l>གེ་<s n="vaux"/></l><r>let<s n="vaux"/></r></p></e>
+      <e><p><l>གེ་<s n="vaux"/></l><r>shall<s n="vaux"/></r></p></e>
 
       <!-- Numerals-->
       <e><p><l>གཅིག་<s n="num"/></l><r>one<s n="num"/></r></p></e>
