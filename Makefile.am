@@ -12,6 +12,7 @@ BASENAME=apertium-$(PREFIX1)
 TARGETS_COMMON =		\
 	$(PREFIX1).autotok.hfst \
 	$(PREFIX1).automorf.bin	\
+	$(PREFIX1).automorf.hfst \
 	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).autobil.bin	\
@@ -56,10 +57,12 @@ TARGETS_COMMON =		\
 	lt-comp lr $@.att $@
 	@rm $@.att
 
-$(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
-	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
-	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
-	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
+$(PREFIX1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
+	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o $@
+
+$(PREFIX1).automorf.bin: $(PREFIX1).automorf.hfst
+	hfst-fst2txt -i $< -o .deps/$(PREFIX1).automorf.att
+	lt-comp lr .deps/$(PREFIX1).automorf.att $@
 
 $(PREFIX1).autotok.hfst: $(AP_SRC1)/$(LANG1).autotok.hfst
 	cp $< $@
