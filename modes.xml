@@ -52,7 +52,7 @@
       </program>
 
 
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1 -n">
         <file name="dzo-eng.rlx.bin"/>
       </program>
       <!--<program name="apertium-tagger -g $2 -u 2">
