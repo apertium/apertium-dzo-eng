@@ -114,6 +114,7 @@
       <!-- Define entries within <e> here. -->
 
       <!--Nouns-->
+      <e><p><l>lpt<s n="n"/></l><r>test<s n="n"/></r></p></e>
       <e><p><l>བྱི་ལི་<s n="n"/></l><r>cat<s n="n"/></r></p></e>
       <e><p><l>སྒྲོམ་<s n="n"/></l><r>box<s n="n"/></r></p></e>
       <e><p><l>ཁྱིམ་<s n="n"/></l><r>house<s n="n"/></r></p></e>
