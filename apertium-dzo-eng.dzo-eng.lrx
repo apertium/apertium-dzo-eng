@@ -12,7 +12,7 @@
 
   <rule>
          <match lemma="མཐུ་" tags="n.*">
-                  <select lemma="black magic" tags="n.*"/>
+                  <select lemma="witchery" tags="n.*"/>
          </match>
          <match lemma="རྐྱབ་" tags="v.iv.*"/>
   </rule>

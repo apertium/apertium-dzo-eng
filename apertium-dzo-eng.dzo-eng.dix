@@ -114,7 +114,6 @@
       <!-- Define entries within <e> here. -->
 
       <!--Nouns-->
-      <e><p><l>lpt<s n="n"/></l><r>test<s n="n"/></r></p></e>
       <e><p><l>བྱི་ལི་<s n="n"/></l><r>cat<s n="n"/></r></p></e>
       <e><p><l>སྒྲོམ་<s n="n"/></l><r>box<s n="n"/></r></p></e>
       <e><p><l>ཁྱིམ་<s n="n"/></l><r>house<s n="n"/></r></p></e>
@@ -136,7 +135,7 @@
       <e><p><l>རྒྱུ་ནོར་<s n="n"/></l><r>wealth<s n="n"/></r></p></e>
       <e><p><l>ཐགཔ་<s n="n"/></l><r>rope<s n="n"/></r></p></e>
       <e><p><l>ཞབས་ཁྲ་<s n="n"/></l><r>music<s n="n"/></r></p></e>
-      <e><p><l>མཐུ་<s n="n"/></l><r>black magic<s n="n"/></r></p></e>
+      <e><p><l>མཐུ་<s n="n"/></l><r>witchery<s n="n"/></r></p></e>
       <e><p><l>མཐུ་<s n="n"/></l><r>power<s n="n"/></r></p></e>
 
       <!--Pronouns-->
