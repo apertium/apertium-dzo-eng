@@ -4,13 +4,8 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
     Add your own rules within <rule> here, using the resources below as a guide
   -->
-  <rule weight = "0.8">
-         <match lemma="མཐུ་" tags="n.*">
-                  <select lemma="power" tags="n.*"/>
-         </match>
-  </rule>
 
-  <rule weight = "1.2">
+  <rule>
          <match lemma="མཐུ་" tags="n.*">
                   <select lemma="witchery" tags="n.*"/>
          </match>
