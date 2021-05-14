@@ -10,11 +10,11 @@
          </match>
   </rule>
 
-  <rule>
+  <rule weight = "1.2">
          <match lemma="མཐུ་" tags="n.*">
                   <select lemma="witchery" tags="n.*"/>
          </match>
-         <match lemma="རྐྱབ་" tags="v.iv.*"/>
+         <match lemma="རྐྱབ་" tags="v.*"/>
   </rule>
 
   <rule weight = "0.8">
