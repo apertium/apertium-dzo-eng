@@ -132,7 +132,6 @@
       <e><p><l>གསེར་<s n="n"/></l><r>gold<s n="n"/></r></p></e>
       <e><p><l>སྨན་<s n="n"/></l><r>medicine<s n="n"/></r></p></e>
       <e><p><l>ཕྱག་<s n="n"/><s n="hn"/></l><r>hand<s n="n"/></r></p></e>
-      <e><p><l>ཕྱག་<s n="n"/><s n="hn"/></l><r>prostrate<s n="n"/></r></p></e>
       <e><p><l>རྒྱུ་ནོར་<s n="n"/></l><r>wealth<s n="n"/></r></p></e>
       <e><p><l>ཐགཔ་<s n="n"/></l><r>rope<s n="n"/></r></p></e>
       <e><p><l>ཞབས་ཁྲ་<s n="n"/></l><r>music<s n="n"/></r></p></e>
@@ -175,6 +174,7 @@
       <e><p><l>འཐེན་<s n="v"/><s n="iv"/></l><r>verbal message<s n="vblex"/></r></p></e>
       <e><p><l>རྐྱབ་<s n="v"/><s n="iv"/></l><r>do<s n="vblex"/></r></p></e>
       <e><p><l>འཚལ་<s n="v"/><s n="iv"/></l><r>devotion<s n="vblex"/></r></p></e>
+      <e><p><l>ཕྱག་<s n="v"/><s n="iv"/></l><r>prostrate<s n="vblex"/></r></p></e>
 
       <!--Prepositions-->
       <e><p><l>ཁར་<s n="loc"/></l><r>by<s n="pr"/></r></p></e>
