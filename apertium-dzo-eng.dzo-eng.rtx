@@ -3,9 +3,14 @@
 !!!!!!!!!!!!!!!
 
 number = (ND sg) sg pl sp ND;
+n_number = pl ;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+tense = pres past fut ifi pri fti inf;
+person = (PD p3) p1 p2 p3 PD ;
+case = nom acc gen dat loc abl ;
+polarity = (PolD "") neg PolD ;
+transitivity = iv tv ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -19,6 +24,9 @@ det_def: _.det_type.number;
 det: %;
 
 NP: _.number;
+VP: _.transitivity.polarity.tense.person.number ;
+vP: _.transitivity.polarity.tense.person.number ;
+v: _.transitivity.polarity.tense.person.number ;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -40,9 +48,11 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
+vP -> do@AuxP.$tense.$polarity v.*.inf.$lemh.$transitivity { %2 } ;
+
 ! Reverse the order of definite determiner and noun
 NP -> n det { 2 _1 1 } ;
-
+! VP -> NP  %vP { 2 _1 1 } ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive

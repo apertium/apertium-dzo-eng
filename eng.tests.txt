@@ -5,3 +5,6 @@ from me
 The cat is in the box.
 He is not a monk.
 the cat
+the rat
+catch the rats
+collect the stones
