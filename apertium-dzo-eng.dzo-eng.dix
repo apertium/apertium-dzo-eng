@@ -138,6 +138,47 @@
       <e><p><l>མཐུ་<s n="n"/></l><r>witchery<s n="n"/></r></p></e>
       <e><p><l>མཐུ་<s n="n"/></l><r>power<s n="n"/></r></p></e>
       <e><p><l>རྡོ་<s n="n"/></l><r>stone<s n="n"/></r></p></e>
+      <!--more nouns-->
+      <e><p><l>ཨམ་སྲོུ་<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+      <e><p><l>མགུ་ཏོོ་<s n="n"/></l><r>head<s n="n"/></r></p></e>
+      <e><p><l>པི་སི་<s n="n"/></l><r>pencil<s n="n"/></r></p></e>
+      <e><p><l>བྱ་<s n="n"/></l><r>bird<s n="n"/></r></p></e>
+      <e><p><l>དཔེ་དེབ་<s n="n"/></l><r>book<s n="n"/></r></p></e>
+      <e><p><l>སྣུམ་འཁོར་<s n="n"/></l><r>car<s n="n"/></r></p></e>
+      <e><p><l>ཚོང་ཁང་<s n="n"/></l><r>shop<s n="n"/></r></p></e>
+      <e><p><l>ལམ་<s n="n"/></l><r>road<s n="n"/></r></p></e>
+      <e><p><l>གངས་རི་<s n="n"/></l><r>mountain<s n="n"/></r></p></e>
+      <e><p><l>མལ་ཆ་<s n="n"/></l><r>blanket<s n="n"/></r></p></e>
+      <e><p><l>ཆུ་<s n="n"/></l><r>water<s n="n"/></r></p></e>
+      <e><p><l>ཆང་<s n="n"/></l><r>alcohol<s n="n"/></r></p></e>
+      <e><p><l>པར་<s n="n"/></l><r>picture<s n="n"/></r></p></e>
+      <e><p><l>གློག་བརྙན་<s n="n"/></l><r>movie<s n="n"/></r></p></e>
+      <e><p><l>གཡུས་<s n="n"/></l><r>village<s n="n"/></r></p></e>
+      <e><p><l>ཤིང་འབྲས་<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
+      <e><p><l>ཆུམ་<s n="n"/></l><r>rice<s n="n"/></r></p></e>
+      <e><p><l>སློབ་གྲྭ་<s n="n"/></l><r>school<s n="n"/></r></p></e>
+      <e><p><l>མེ་ཏོག་<s n="n"/></l><r>flower<s n="n"/></r></p></e>
+      <e><p><l>མཛར་ཅུམ་<s n="n"/></l><r>picnic<s n="n"/></r></p></e>
+      <e><p><l>མི་<s n="n"/></l><r>human<s n="n"/></r></p></e>
+      <e><p><l>འཛམ་གླིང་<s n="n"/></l><r>world<s n="n"/></r></p></e>
+      <e><p><l>མི་ཚེ་<s n="n"/></l><r>life<s n="n"/></r></p></e>
+      <e><p><l>ཨ་ལུ་<s n="n"/></l><r>child<s n="n"/></r></p></e>
+      <e><p><l>གཞུང་<s n="n"/></l><r>government<s n="n"/></r></p></e>
+      <e><p><l>དཀའ་ངལ་<s n="n"/></l><r>problem<s n="n"/></r></p></e>
+      <e><p><l>ལཱ་<s n="n"/></l><r>work<s n="n"/></r></p></e>
+      <e><p><l>དྲུང་འཚོ་<s n="n"/></l><r>doctor<s n="n"/></r></p></e>
+      <e><p><l>ལྡུམ་ར་<s n="n"/></l><r>garden<s n="n"/></r></p></e>
+      <e><p><l>ཚོད་བསྲེ་<s n="n"/></l><r>vegetable<s n="n"/></r></p></e>
+      <e><p><l>ཤིང༌<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+      <e><p><l>ཨོམ་སོ་<s n="n"/></l><r>sock<s n="n"/></r></p></e>
+      <e><p><l>འབུཔ་<s n="n"/></l><r>insect<s n="n"/></r></p></e>
+      <e><p><l>དར་ཚི་<s n="n"/></l><r>cheese<s n="n"/></r></p></e>
+      <e><p><l>གཏང་ཡིག་<s n="n"/></l><r>letter<s n="n"/></r></p></e>
+      <e><p><l>ཤོག་ཀུ་<s n="n"/></l><r>paper<s n="n"/></r></p></e>
+      <e><p><l>རྐང་རྩེད་<s n="n"/></l><r>football<s n="n"/></r></p></e>
+      <e><p><l>རྒྱལ་ཁབ་<s n="n"/></l><r>country<s n="n"/></r></p></e>
+      <e><p><l>དམ་སྦྱིས་<s n="n"/></l><r>bottle<s n="n"/></r></p></e>
+      <e><p><l>སྨྱུ་གུ་<s n="n"/></l><r>pen<s n="n"/></r></p></e>
 
       <!--Pronouns-->
       <e><p><l>ང་<s n="prn"/><s n="p1"/><s n="sg"/></l><r>I<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -151,10 +192,31 @@
 
       <!--Adjectives-->
       <e><p><l>སྦོམ་<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
-      <e><p><l>རྒས་<s n="adj"/></l><r>older<s n="adj"/></r></p></e>
+      <e><p><l>རྒས་<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
       <e><p><l>རིངམོ་<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
       <e><p><l>སེརཔོ་<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
       <e><p><l>འཇའ་ཆི་ཆི་<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+      <!--more adjectives-->
+      <e><p><l>ལེགས་ཤོམ་<s n="adj"/></l><r>good<s n="adj"/></r></p></e>
+      <e><p><l>གསརཔ་<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
+      <e><p><l>རིངམོ་<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
+      <e><p><l>མཐོ་<s n="adj"/></l><r>high<s n="adj"/></r></p></e>
+      <e><p><l>ཁག་ཆེ་<s n="adj"/></l><r>important<s n="adj"/></r></p></e>
+      <e><p><l>དྲག་ཤོས་<s n="adj"/></l><r>best<s n="adj"/></r></p></e>
+      <e><p><l>འཇམ་ཏོང་ཏོ་<s n="adj"/></l><r>easy<s n="adj"/></r></p></e>
+      <e><p><l>ངོ་མ་<s n="adj"/></l><r>true<s n="adj"/></r></p></e>
+      <e><p><l>སྲ་ཀྲག་<s n="adj"/></l><r>hard<s n="adj"/></r></p></e>
+      <e><p><l>ལཱ་ཁག་<s n="adj"/></l><r>difficult<s n="adj"/></r></p></e>
+      <e><p><l>སྟུག་པག་པ་<s n="adj"/></l><r>thick<s n="adj"/></r></p></e>
+      <e><p><l>ཧིང་ཚ་སི་སི་<s n="adj"/></l><r>cute<s n="adj"/></r></p></e>
+      <e><p><l>དམརཔོ་<s n="adj"/></l><r>red<s n="adj"/></r></p></e>
+      <e><p><l>མཛེས་ཏོག་ཏོ་<s n="adj"/></l><r>elegant<s n="adj"/></r></p></e>
+      <e><p><l>མངརམོ་<s n="adj"/></l><r>sweet<s n="adj"/></r></p></e>
+      <e><p><l>དགའ་ཚོར་ཅན་<s n="adj"/></l><r>thankful<s n="adj"/></r></p></e>
+      <e><p><l>སལ་ཏོག་ཏོ་<s n="adj"/></l><r>clear<s n="adj"/></r></p></e>
+      <e><p><l>སྦུང་<s n="adj"/></l><r>bulky<s n="adj"/></r></p></e>
+      <e><p><l>གདུག་རྩུབ་ཅན་<s n="adj"/></l><r>cruel<s n="adj"/></r></p></e>
+      <e><p><l>ཞིམ་ཏོང་ཏོ་<s n="adj"/></l><r>delicious<s n="adj"/></r></p></e>
 
      <!--Adverbs-->
       <e><p><l>ད་<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
@@ -176,6 +238,37 @@
       <e><p><l>རྐྱབ་<s n="v"/><s n="iv"/></l><r>do<s n="vblex"/></r></p></e>
       <e><p><l>འཚལ་<s n="v"/><s n="iv"/></l><r>devotion<s n="vblex"/></r></p></e>
       <e><p><l>ཕྱག་<s n="v"/><s n="iv"/></l><r>prostrate<s n="vblex"/></r></p></e>
+      <!--more verbs-->
+      <e><p><l>འདྲི་<s n="v"/><s n="tv"/></l><r>ask<s n="vblex"/></r></p></e>
+      <e><p><l>འགོ་བཙུགས་<s n="v"/><s n="tv"/></l><r>begin<s n="vblex"/></r></p></e>
+      <e><p><l>འགྱུར་<s n="v"/><s n="tv"/></l><r>change<s n="vblex"/></r></p></e>
+      <e><p><l>འབོ་<s n="v"/><s n="tv"/></l><r>call<s n="vblex"/></r></p></e>
+      <e><p><l>ཚོར་<s n="v"/><s n="tv"/></l><r>feel<s n="vblex"/></r></p></e>
+      <e><p><l>བྱིན་<s n="v"/><s n="tv"/></l><r>give<s n="vblex"/></r></p></e>
+      <e><p><l>གོ་<s n="v"/><s n="tv"/></l><r>hear<s n="vblex"/></r></p></e>
+      <e><p><l>ཤེས་<s n="v"/><s n="tv"/></l><r>know<s n="vblex"/></r></p></e>
+      <e><p><l>དགའ་<s n="v"/><s n="tv"/></l><r>like<s n="vblex"/></r></p></e>
+      <e><p><l>བལྟ་<s n="v"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>
+      <e><p><l>རྩེ་<s n="v"/><s n="tv"/></l><r>play<s n="vblex"/></r></p></e>
+      <e><p><l>བཙུགས་<s n="v"/><s n="tv"/></l><r>put<s n="vblex"/></r></p></e>
+      <e><p><l>བརྒྱུག་<s n="v"/><s n="tv"/></l><r>run<s n="vblex"/></r></p></e>
+      <e><p><l>བལྟ་<s n="v"/><s n="tv"/></l><r>see<s n="vblex"/></r></p></e>
+      <e><p><l>འགོ་བཙུགས་<s n="v"/><s n="tv"/></l><r>start<s n="vblex"/></r></p></e>
+      <e><p><l>འབག་<s n="v"/><s n="tv"/></l><r>take<s n="vblex"/></r></p></e>
+      <e><p><l>མནོ་བསམ་གཏང་<s n="v"/><s n="tv"/></l><r>think<s n="vblex"/></r></p></e>
+      <e><p><l>འབད་བལྟ་<s n="v"/><s n="tv"/></l><r>try<s n="vblex"/></r></p></e>
+      <e><p><l>བསྒྱིར་<s n="v"/><s n="tv"/></l><r>turn<s n="vblex"/></r></p></e>
+      <e><p><l>ལག་ལེན་འཐབ་<s n="v"/><s n="tv"/></l><r>use<s n="vblex"/></r></p></e>
+      <e><p><l>དགོ་<s n="v"/><s n="tv"/></l><r>want<s n="vblex"/></r></p></e>
+      <e><p><l>དྲིམ་ཧུམ་<s n="v"/><s n="tv"/></l><r>smell<s n="vblex"/></r></p></e>
+      <e><p><l>བཀོ་<s n="v"/><s n="tv"/></l><r>throw<s n="vblex"/></r></p></e>
+      <e><p><l>སོན་བཏབ་<s n="v"/><s n="tv"/></l><r>sow<s n="vblex"/></r></p></e>
+      <e><p><l>ལོང་<s n="v"/><s n="tv"/></l><r>stand<s n="vblex"/></r></p></e>
+      <e><p><l>ཨརཝ་བརྐུ་<s n="v"/><s n="tv"/></l><r>steal<s n="vblex"/></r></p></e>
+      <e><p><l>མཆོང་<s n="v"/><s n="tv"/></l><r>jump<s n="vblex"/></r></p></e>
+      <e><p><l>རྟེན་འབྲེལ་བརྩི་<s n="v"/><s n="tv"/></l><r>celebrate<s n="vblex"/></r></p></e>
+      <e><p><l>འཐུང་<s n="v"/><s n="tv"/></l><r>drink<s n="vblex"/></r></p></e>
+      <e><p><l>ཕང་མར་བཏབ་<s n="v"/><s n="tv"/></l><r>hug<s n="vblex"/></r></p></e>
 
       <!--Prepositions-->
       <e><p><l>ཁར་<s n="loc"/></l><r>by<s n="pr"/></r></p></e>
@@ -187,6 +280,17 @@
       <!-- Numerals-->
       <e><p><l>གཅིག་<s n="num"/></l><r>one<s n="num"/></r></p></e>
       <e><p><l>གཉིས་<s n="num"/></l><r>two<s n="num"/></r></p></e>
+      <!-- more numerals-->
+      <e><p><l>གསུམ་<s n="num"/></l><r>three<s n="num"/></r></p></e>
+      <e><p><l>བཞི་<s n="num"/></l><r>four<s n="num"/></r></p></e>
+      <e><p><l>ལྔ་<s n="num"/></l><r>five<s n="num"/></r></p></e>
+      <e><p><l>དྲུག་<s n="num"/></l><r>six<s n="num"/></r></p></e>
+      <e><p><l>བདུན་<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+      <e><p><l>བརྒྱད་<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+      <e><p><l>དགུ་<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+      <e><p><l>ཀླད་ཀོར་<s n="num"/></l><r>zero<s n="num"/></r></p></e>
+      <e><p><l>བཅུ་ཐམ་<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+      <e><p><l>བརྒྱ་<s n="num"/></l><r>hundred<s n="num"/></r></p></e>
 
      <!-- Articles-->
       <e><p><l>དེ་<s n="det"/></l><r>the<s n="det"/><s n="def"/></r></p></e>
