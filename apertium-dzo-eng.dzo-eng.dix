@@ -241,9 +241,9 @@
       <!--more verbs-->
       <e><p><l>འདྲི་<s n="v"/><s n="tv"/></l><r>ask<s n="vblex"/></r></p></e>
       <e><p><l>འགོ་བཙུགས་<s n="v"/><s n="tv"/></l><r>begin<s n="vblex"/></r></p></e>
-      <e><p><l>འགྱུར་<s n="v"/><s n="tv"/></l><r>change<s n="vblex"/></r></p></e>
+      <e><p><l>འགྱུར་<s n="v"/><s n="iv"/></l><r>change<s n="vblex"/></r></p></e>
       <e><p><l>འབོ་<s n="v"/><s n="tv"/></l><r>call<s n="vblex"/></r></p></e>
-      <e><p><l>ཚོར་<s n="v"/><s n="tv"/></l><r>feel<s n="vblex"/></r></p></e>
+      <e><p><l>ཚོར་<s n="v"/><s n="iv"/></l><r>feel<s n="vblex"/></r></p></e>
       <e><p><l>བྱིན་<s n="v"/><s n="tv"/></l><r>give<s n="vblex"/></r></p></e>
       <e><p><l>གོ་<s n="v"/><s n="tv"/></l><r>hear<s n="vblex"/></r></p></e>
       <e><p><l>ཤེས་<s n="v"/><s n="tv"/></l><r>know<s n="vblex"/></r></p></e>
@@ -251,22 +251,22 @@
       <e><p><l>བལྟ་<s n="v"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>
       <e><p><l>རྩེ་<s n="v"/><s n="tv"/></l><r>play<s n="vblex"/></r></p></e>
       <e><p><l>བཙུགས་<s n="v"/><s n="tv"/></l><r>put<s n="vblex"/></r></p></e>
-      <e><p><l>བརྒྱུག་<s n="v"/><s n="tv"/></l><r>run<s n="vblex"/></r></p></e>
+      <e><p><l>བརྒྱུག་<s n="v"/><s n="iv"/></l><r>run<s n="vblex"/></r></p></e>
       <e><p><l>བལྟ་<s n="v"/><s n="tv"/></l><r>see<s n="vblex"/></r></p></e>
       <e><p><l>འགོ་བཙུགས་<s n="v"/><s n="tv"/></l><r>start<s n="vblex"/></r></p></e>
       <e><p><l>འབག་<s n="v"/><s n="tv"/></l><r>take<s n="vblex"/></r></p></e>
       <e><p><l>མནོ་བསམ་གཏང་<s n="v"/><s n="tv"/></l><r>think<s n="vblex"/></r></p></e>
       <e><p><l>འབད་བལྟ་<s n="v"/><s n="tv"/></l><r>try<s n="vblex"/></r></p></e>
-      <e><p><l>བསྒྱིར་<s n="v"/><s n="tv"/></l><r>turn<s n="vblex"/></r></p></e>
+      <e><p><l>བསྒྱིར་<s n="v"/><s n="iv"/></l><r>turn<s n="vblex"/></r></p></e>
       <e><p><l>ལག་ལེན་འཐབ་<s n="v"/><s n="tv"/></l><r>use<s n="vblex"/></r></p></e>
       <e><p><l>དགོ་<s n="v"/><s n="tv"/></l><r>want<s n="vblex"/></r></p></e>
       <e><p><l>དྲིམ་ཧུམ་<s n="v"/><s n="tv"/></l><r>smell<s n="vblex"/></r></p></e>
       <e><p><l>བཀོ་<s n="v"/><s n="tv"/></l><r>throw<s n="vblex"/></r></p></e>
-      <e><p><l>སོན་བཏབ་<s n="v"/><s n="tv"/></l><r>sow<s n="vblex"/></r></p></e>
-      <e><p><l>ལོང་<s n="v"/><s n="tv"/></l><r>stand<s n="vblex"/></r></p></e>
+      <e><p><l>སོན་བཏབ་<s n="v"/><s n="iv"/></l><r>sow<s n="vblex"/></r></p></e>
+      <e><p><l>ལོང་<s n="v"/><s n="iv"/></l><r>stand<s n="vblex"/></r></p></e>
       <e><p><l>ཨརཝ་བརྐུ་<s n="v"/><s n="tv"/></l><r>steal<s n="vblex"/></r></p></e>
-      <e><p><l>མཆོང་<s n="v"/><s n="tv"/></l><r>jump<s n="vblex"/></r></p></e>
-      <e><p><l>རྟེན་འབྲེལ་བརྩི་<s n="v"/><s n="tv"/></l><r>celebrate<s n="vblex"/></r></p></e>
+      <e><p><l>མཆོང་<s n="v"/><s n="iv"/></l><r>jump<s n="vblex"/></r></p></e>
+      <e><p><l>རྟེན་འབྲེལ་བརྩི་<s n="v"/><s n="iv"/></l><r>celebrate<s n="vblex"/></r></p></e>
       <e><p><l>འཐུང་<s n="v"/><s n="tv"/></l><r>drink<s n="vblex"/></r></p></e>
       <e><p><l>ཕང་མར་བཏབ་<s n="v"/><s n="tv"/></l><r>hug<s n="vblex"/></r></p></e>
 
