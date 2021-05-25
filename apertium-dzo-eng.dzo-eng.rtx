@@ -9,8 +9,9 @@ det_type = def ind dem itg;
 tense = pres past fut ifi pri fti inf;
 person = (PD p3) p1 p2 p3 PD ;
 case = nom acc gen dat loc abl ;
-polarity = (PolD "") neg PolD ;
+polarity = neg ;
 transitivity = iv tv ;
+PP:: _;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -25,7 +26,6 @@ det: %;
 
 NP: _.number;
 VP: _.transitivity.polarity.tense.person.number ;
-vP: _.transitivity.polarity.tense.person.number ;
 v: _.transitivity.polarity.tense.person.number ;
 
 !!!!!!!!!!!!!!!
@@ -48,11 +48,11 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-vP -> do@AuxP.$tense.$polarity v.*.inf.$lemh.$transitivity { %2 } ;
-
-! Reverse the order of definite determiner and noun
+! Reverse the order of verb and NP (verb noun order)
+VP -> NP  %v { 2 _1 1 } ;
+! Reverse the order of definite determiner and noun (determiner after noun)
 NP -> n det { 2 _1 1 } ;
-! VP -> NP  %vP { 2 _1 1 } ;
+! Adding preposition suffixes
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive
