@@ -30,9 +30,18 @@
          </match>
   </rule>
 
+  <rule>
+         <match lemma="འཐེན་" tags="v.*">
+                  <select lemma="pull" tags="v.*"/>
+         </match>
+  </rule>
 
-
-
+  <rule weight="1.2">
+         <match lemma="ཞབས་ཁྲ་" tags="n.*"/>
+         <match lemma="འཐེན་" tags="v.*">
+                  <select lemma="sing" tags="v.*"/>
+         </match>
+  </rule>
 
 </rules>
 
