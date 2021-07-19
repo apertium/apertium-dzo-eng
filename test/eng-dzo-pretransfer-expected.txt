@@ -1,0 +1,16 @@
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[5F1Mut5x7GXG#0] ^country<n><pl>$
+[/5F1Mut5x7GXG]
+[6oGrRjeV0VXz#0] ^cute<adj><sint><sup>$
+[/6oGrRjeV0VXz]
+[YmIEH28YoAUo#0] ^know<vblex><past>$
+[/YmIEH28YoAUo]
+[dh4Xt8RZzfww#0] ^celebrate<vblex><pp>$
+[/dh4Xt8RZzfww]
+[nguXQiDMe9aI#0] ^yellow<adj><sint><sup>$
+[/nguXQiDMe9aI]
+[u3IIvJtdfATx#0] ^!<sent>$
+[/u3IIvJtdfATx]
+[zbTuKuppzGqD#0] ^.<sent>$
+[/zbTuKuppzGqD]

@@ -1,0 +1,10 @@
+{
+    "dzo-eng": {
+        "input": "dzo-eng-input.txt",
+        "mode": "dzo-eng"
+    },
+    "eng-dzo": {
+        "input": "eng-dzo-input.txt",
+        "mode": "eng-dzo"
+    }
+}
